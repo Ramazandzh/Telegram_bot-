@@ -1,0 +1,3 @@
+CREATE DATABASE evops;
+CREATE USER evops_user WITH PASSWORD 'password';
+GRANT ALL PRIVILEGES ON DATABASE evops TO evops_user;
